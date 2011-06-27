@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3A92EA013B1887C00A3BCB4 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A92E9F13B1887B00A3BCB4 /* DemoTableViewController.m */; };
+		E3DCEE3A13B15BE90022F5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DCEE3913B15BE90022F5AA /* Foundation.framework */; };
+		E3DCEE6413B15E770022F5AA /* CSToolboxTable.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DCEE4813B15C900022F5AA /* CSToolboxTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3DCEE7313B169DC0022F5AA /* CSToolboxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCEE6A13B169DB0022F5AA /* CSToolboxTableViewController.m */; };
+		E3DCEE8313B16AD70022F5AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DCEE8213B16AD70022F5AA /* UIKit.framework */; };
+		E3DCEE8413B16AD70022F5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DCEE3913B15BE90022F5AA /* Foundation.framework */; };
+		E3DCEE8613B16AD70022F5AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DCEE8513B16AD70022F5AA /* CoreGraphics.framework */; };
+		E3DCEE8C13B16AD70022F5AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3DCEE8A13B16AD70022F5AA /* InfoPlist.strings */; };
+		E3DCEE8E13B16AD70022F5AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCEE8D13B16AD70022F5AA /* main.m */; };
+		E3DCEE9213B16AD80022F5AA /* DemoAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCEE9113B16AD80022F5AA /* DemoAppAppDelegate.m */; };
+		E3DCEE9413B16AD80022F5AA /* DemoAppViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = E3DCEE9313B16AD80022F5AA /* DemoAppViewController.h */; };
+		E3DCEE9613B16AD80022F5AA /* DemoAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCEE9513B16AD80022F5AA /* DemoAppViewController.m */; };
+		E3DCEE9913B16AD80022F5AA /* DemoAppViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3DCEE9713B16AD80022F5AA /* DemoAppViewController_iPhone.xib */; };
+		E3DCEE9C13B16AD80022F5AA /* DemoAppViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3DCEE9A13B16AD80022F5AA /* DemoAppViewController_iPad.xib */; };
+		E3DCEEA213B16C0B0022F5AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DCEE8513B16AD70022F5AA /* CoreGraphics.framework */; };
+		E3DCEEA313B16C150022F5AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DCEE8213B16AD70022F5AA /* UIKit.framework */; };
+		E3DCEEA513B16D880022F5AA /* libCSToolboxTableLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DCEE3613B15BE90022F5AA /* libCSToolboxTableLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3DCEE6213B15E0C0022F5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3DCEE2D13B15BE90022F5AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3DCEE3513B15BE90022F5AA;
+			remoteInfo = CSToolboxTableLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3A92E9E13B1887B00A3BCB4 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		E3A92E9F13B1887B00A3BCB4 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		E3DCEE3613B15BE90022F5AA /* libCSToolboxTableLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCSToolboxTableLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DCEE3913B15BE90022F5AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3DCEE3D13B15BE90022F5AA /* CSToolboxTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSToolboxTable-Prefix.pch"; sourceTree = "<group>"; };
+		E3DCEE4813B15C900022F5AA /* CSToolboxTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSToolboxTable.h; sourceTree = "<group>"; };
+		E3DCEE5113B15E000022F5AA /* CSToolboxTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSToolboxTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DCEE5513B15E000022F5AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E3DCEE5613B15E000022F5AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E3DCEE5713B15E000022F5AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3DCEE6913B169DB0022F5AA /* CSToolboxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSToolboxTableViewController.h; sourceTree = "<group>"; };
+		E3DCEE6A13B169DB0022F5AA /* CSToolboxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSToolboxTableViewController.m; sourceTree = "<group>"; };
+		E3DCEE8013B16AD70022F5AA /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DCEE8213B16AD70022F5AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3DCEE8513B16AD70022F5AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3DCEE8913B16AD70022F5AA /* DemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoApp-Info.plist"; sourceTree = "<group>"; };
+		E3DCEE8B13B16AD70022F5AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3DCEE8D13B16AD70022F5AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3DCEE8F13B16AD70022F5AA /* DemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		E3DCEE9013B16AD80022F5AA /* DemoAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppAppDelegate.h; sourceTree = "<group>"; };
+		E3DCEE9113B16AD80022F5AA /* DemoAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppAppDelegate.m; sourceTree = "<group>"; };
+		E3DCEE9313B16AD80022F5AA /* DemoAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppViewController.h; sourceTree = "<group>"; };
+		E3DCEE9513B16AD80022F5AA /* DemoAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppViewController.m; sourceTree = "<group>"; };
+		E3DCEE9813B16AD80022F5AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DemoAppViewController_iPhone.xib; sourceTree = "<group>"; };
+		E3DCEE9B13B16AD80022F5AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DemoAppViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3DCEE3313B15BE90022F5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DCEE3A13B15BE90022F5AA /* Foundation.framework in Frameworks */,
+				E3DCEEA213B16C0B0022F5AA /* CoreGraphics.framework in Frameworks */,
+				E3DCEEA313B16C150022F5AA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DCEE4D13B15E000022F5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DCEE7D13B16AD70022F5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DCEEA513B16D880022F5AA /* libCSToolboxTableLib.a in Frameworks */,
+				E3DCEE8313B16AD70022F5AA /* UIKit.framework in Frameworks */,
+				E3DCEE8413B16AD70022F5AA /* Foundation.framework in Frameworks */,
+				E3DCEE8613B16AD70022F5AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3A92E9213B1714200A3BCB4 /* DemoTable */ = {
+			isa = PBXGroup;
+			children = (
+				E3A92E9E13B1887B00A3BCB4 /* DemoTableViewController.h */,
+				E3A92E9F13B1887B00A3BCB4 /* DemoTableViewController.m */,
+			);
+			path = DemoTable;
+			sourceTree = "<group>";
+		};
+		E3DCEE2B13B15BE90022F5AA = {
+			isa = PBXGroup;
+			children = (
+				E3DCEE3B13B15BE90022F5AA /* CSToolboxTable */,
+				E3DCEE8713B16AD70022F5AA /* DemoApp */,
+				E3DCEE3813B15BE90022F5AA /* Frameworks */,
+				E3DCEE3713B15BE90022F5AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3DCEE3713B15BE90022F5AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCEE3613B15BE90022F5AA /* libCSToolboxTableLib.a */,
+				E3DCEE5113B15E000022F5AA /* CSToolboxTable.framework */,
+				E3DCEE8013B16AD70022F5AA /* DemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3DCEE3813B15BE90022F5AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCEE3913B15BE90022F5AA /* Foundation.framework */,
+				E3DCEE8213B16AD70022F5AA /* UIKit.framework */,
+				E3DCEE8513B16AD70022F5AA /* CoreGraphics.framework */,
+				E3DCEE5413B15E000022F5AA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3DCEE3B13B15BE90022F5AA /* CSToolboxTable */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCEE4613B15C770022F5AA /* Classes */,
+				E3DCEE3C13B15BE90022F5AA /* Supporting Files */,
+			);
+			path = CSToolboxTable;
+			sourceTree = "<group>";
+		};
+		E3DCEE3C13B15BE90022F5AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCEE3D13B15BE90022F5AA /* CSToolboxTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3DCEE4613B15C770022F5AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCEE7B13B16A8E0022F5AA /* Table */,
+				E3DCEE4813B15C900022F5AA /* CSToolboxTable.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E3DCEE5413B15E000022F5AA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCEE5513B15E000022F5AA /* AppKit.framework */,
+				E3DCEE5613B15E000022F5AA /* CoreData.framework */,
+				E3DCEE5713B15E000022F5AA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E3DCEE7B13B16A8E0022F5AA /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCEE6913B169DB0022F5AA /* CSToolboxTableViewController.h */,
+				E3DCEE6A13B169DB0022F5AA /* CSToolboxTableViewController.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		E3DCEE8713B16AD70022F5AA /* DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				E3A92E9213B1714200A3BCB4 /* DemoTable */,
+				E3DCEE9013B16AD80022F5AA /* DemoAppAppDelegate.h */,
+				E3DCEE9113B16AD80022F5AA /* DemoAppAppDelegate.m */,
+				E3DCEE9313B16AD80022F5AA /* DemoAppViewController.h */,
+				E3DCEE9513B16AD80022F5AA /* DemoAppViewController.m */,
+				E3DCEE9713B16AD80022F5AA /* DemoAppViewController_iPhone.xib */,
+				E3DCEE9A13B16AD80022F5AA /* DemoAppViewController_iPad.xib */,
+				E3DCEE8813B16AD70022F5AA /* Supporting Files */,
+			);
+			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		E3DCEE8813B16AD70022F5AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCEE8913B16AD70022F5AA /* DemoApp-Info.plist */,
+				E3DCEE8A13B16AD70022F5AA /* InfoPlist.strings */,
+				E3DCEE8D13B16AD70022F5AA /* main.m */,
+				E3DCEE8F13B16AD70022F5AA /* DemoApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E3DCEE3413B15BE90022F5AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DCEE4E13B15E000022F5AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DCEE6413B15E770022F5AA /* CSToolboxTable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E3DCEE3513B15BE90022F5AA /* CSToolboxTableLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DCEE4013B15BE90022F5AA /* Build configuration list for PBXNativeTarget "CSToolboxTableLib" */;
+			buildPhases = (
+				E3DCEE3213B15BE90022F5AA /* Sources */,
+				E3DCEE3313B15BE90022F5AA /* Frameworks */,
+				E3DCEE3413B15BE90022F5AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSToolboxTableLib;
+			productName = CSToolboxTable;
+			productReference = E3DCEE3613B15BE90022F5AA /* libCSToolboxTableLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3DCEE5013B15E000022F5AA /* CSToolboxTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DCEE5F13B15E000022F5AA /* Build configuration list for PBXNativeTarget "CSToolboxTable" */;
+			buildPhases = (
+				E3DCEE4C13B15E000022F5AA /* Sources */,
+				E3DCEE4D13B15E000022F5AA /* Frameworks */,
+				E3DCEE4E13B15E000022F5AA /* Headers */,
+				E3DCEE4F13B15E000022F5AA /* Resources */,
+				E3DCEE6613B15EFB0022F5AA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3DCEE6313B15E0C0022F5AA /* PBXTargetDependency */,
+			);
+			name = CSToolboxTable;
+			productName = CSToolboxTable;
+			productReference = E3DCEE5113B15E000022F5AA /* CSToolboxTable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3DCEE7F13B16AD70022F5AA /* DemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DCEE9D13B16AD80022F5AA /* Build configuration list for PBXNativeTarget "DemoApp" */;
+			buildPhases = (
+				E3DCEE7C13B16AD70022F5AA /* Sources */,
+				E3DCEE7D13B16AD70022F5AA /* Frameworks */,
+				E3DCEE7E13B16AD70022F5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoApp;
+			productName = DemoApp;
+			productReference = E3DCEE8013B16AD70022F5AA /* DemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3DCEE2D13B15BE90022F5AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Blue Pocket Limited";
+			};
+			buildConfigurationList = E3DCEE3013B15BE90022F5AA /* Build configuration list for PBXProject "CSToolboxTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3DCEE2B13B15BE90022F5AA;
+			productRefGroup = E3DCEE3713B15BE90022F5AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3DCEE3513B15BE90022F5AA /* CSToolboxTableLib */,
+				E3DCEE5013B15E000022F5AA /* CSToolboxTable */,
+				E3DCEE7F13B16AD70022F5AA /* DemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3DCEE4F13B15E000022F5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DCEE7E13B16AD70022F5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DCEE8C13B16AD70022F5AA /* InfoPlist.strings in Resources */,
+				E3DCEE9413B16AD80022F5AA /* DemoAppViewController.h in Resources */,
+				E3DCEE9913B16AD80022F5AA /* DemoAppViewController_iPhone.xib in Resources */,
+				E3DCEE9C13B16AD80022F5AA /* DemoAppViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3DCEE6613B15EFB0022F5AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo --\necho Building framework\nLIB_FILE=$TARGET_BUILD_DIR-iphoneos/libCSToolboxTableLib.a\nEXEC_FILE=$TARGET_BUILD_DIR/$EXECUTABLE_PATH\nEXEC_RELEASE_FOLDER=$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH\n\necho Creating exec release folder\necho \"$EXEC_RELEASE_FOLDER\"\n#mkdir -p \"$EXEC_RELEASE_FOLDER\"\necho Copying library file\necho from: \"$LIB_FILE\" \necho to: \"$EXEC_FILE\"\ncp -f \"$LIB_FILE\" \"$EXEC_FILE\"\necho Linking current version at top level\necho src: \"Versions/Current/$EXECUTABLE_NAME\" \necho dst: \"$TARGET_BUILD_DIR/$EXECUTABLE_NAME.framework/$EXECUTABLE_NAME\"\nln -fs \"Versions/Current/$EXECUTABLE_NAME\" \"$TARGET_BUILD_DIR/$EXECUTABLE_NAME.framework/$EXECUTABLE_NAME\"\necho Creating framework archive\necho \"$EXECUTABLE_NAME-$FRAMEWORK_VERSION.zip\"\n( cd \"$TARGET_BUILD_DIR\" && zip -r \"$EXECUTABLE_NAME-$FRAMEWORK_VERSION.zip\" \"$EXECUTABLE_NAME.framework\" )\necho --\necho Framework is ready at following location:\necho \"$TARGET_BUILD_DIR\"\n\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3DCEE3213B15BE90022F5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DCEE7313B169DC0022F5AA /* CSToolboxTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DCEE4C13B15E000022F5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DCEE7C13B16AD70022F5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DCEE8E13B16AD70022F5AA /* main.m in Sources */,
+				E3DCEE9213B16AD80022F5AA /* DemoAppAppDelegate.m in Sources */,
+				E3DCEE9613B16AD80022F5AA /* DemoAppViewController.m in Sources */,
+				E3A92EA013B1887C00A3BCB4 /* DemoTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3DCEE6313B15E0C0022F5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3DCEE3513B15BE90022F5AA /* CSToolboxTableLib */;
+			targetProxy = E3DCEE6213B15E0C0022F5AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3DCEE8A13B16AD70022F5AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3DCEE8B13B16AD70022F5AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3DCEE9713B16AD80022F5AA /* DemoAppViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3DCEE9813B16AD80022F5AA /* en */,
+			);
+			name = DemoAppViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E3DCEE9A13B16AD80022F5AA /* DemoAppViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3DCEE9B13B16AD80022F5AA /* en */,
+			);
+			name = DemoAppViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3DCEE3E13B15BE90022F5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E3DCEE3F13B15BE90022F5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3DCEE4113B15BE90022F5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+					arm7f,
+					arm7k,
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				DSTROOT = /tmp/CSToolboxTable.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../tmp\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSToolboxTable/CSToolboxTable-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv6 armv7 armv7f armv7k";
+			};
+			name = Debug;
+		};
+		E3DCEE4213B15BE90022F5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+					arm7f,
+					arm7k,
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				DSTROOT = /tmp/CSToolboxTable.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../tmp\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSToolboxTable/CSToolboxTable-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv6 armv7 armv7f armv7k";
+			};
+			name = Release;
+		};
+		E3DCEE6013B15E000022F5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				FRAMEWORK_VERSION = 0.1;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSToolboxTable/CSToolboxTable-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "CSToolboxTable/CSToolboxTable-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		E3DCEE6113B15E000022F5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				FRAMEWORK_VERSION = 0.1;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSToolboxTable/CSToolboxTable-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "CSToolboxTable/CSToolboxTable-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		E3DCEE9E13B16AD80022F5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoApp/DemoApp-Prefix.pch";
+				INFOPLIST_FILE = "DemoApp/DemoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3DCEE9F13B16AD80022F5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoApp/DemoApp-Prefix.pch";
+				INFOPLIST_FILE = "DemoApp/DemoApp-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3DCEE3013B15BE90022F5AA /* Build configuration list for PBXProject "CSToolboxTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DCEE3E13B15BE90022F5AA /* Debug */,
+				E3DCEE3F13B15BE90022F5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DCEE4013B15BE90022F5AA /* Build configuration list for PBXNativeTarget "CSToolboxTableLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DCEE4113B15BE90022F5AA /* Debug */,
+				E3DCEE4213B15BE90022F5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DCEE5F13B15E000022F5AA /* Build configuration list for PBXNativeTarget "CSToolboxTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DCEE6013B15E000022F5AA /* Debug */,
+				E3DCEE6113B15E000022F5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DCEE9D13B16AD80022F5AA /* Build configuration list for PBXNativeTarget "DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DCEE9E13B16AD80022F5AA /* Debug */,
+				E3DCEE9F13B16AD80022F5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3DCEE2D13B15BE90022F5AA /* Project object */;
+}
